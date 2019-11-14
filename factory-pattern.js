@@ -31,7 +31,7 @@ function EmployeeFactory() {
 
 function details(name, type) {
   console.log("Hi, I am " + name + " and I am a " + type)
-  // Called in line 48 => No need arguments
+  // Called in line 48 => No arguments needed
   // console.log("Hi, I am " + this.name + " and I am a " + this.type)
 }
 
