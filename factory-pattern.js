@@ -35,8 +35,8 @@ function details(name, type) {
   // console.log("Hi, I am " + this.name + " and I am a " + this.type)
 }
 
-const employees = [];
-const employeeFactory = new EmployeeFactory();
+var employees = [];
+var employeeFactory = new EmployeeFactory();
 
 employees.push(employeeFactory.create("Patrick", 1));
 employees.push(employeeFactory.create("John", 2));
